@@ -1,0 +1,39 @@
+body {
+    background: rgb(147, 147, 147);
+}
+
+.image-container {
+    position: relative;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .image-container img {
+    width: 700px;
+    height: 600px;
+    object-fit: cover;
+  }
+
+  .image-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:rgb(236, 65, 3);
+    color: rgb(83, 242, 242);
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+  
+  .image-button.hidden {
+    display: none;
+  }
+  
+  #prev-button {
+    left: 10%;
+  }
+  
+  #next-button {
+    right: 10%;
+  }
